@@ -1,0 +1,51 @@
+.box {
+    background-color: #636e72;
+    border: solid 2px #2d3436;
+    padding: 48px 72px;
+}
+
+.box__title {
+    font-size: 42px;
+    margin-bottom: 10px;    
+    
+}
+
+.box__subtitle {
+    font-size: 26px;
+    margin-bottom: 10px;
+
+}
+
+.box__button {
+    padding: 8px 24px;
+}
+
+.box--primary   { background-color: #74b9ff; }
+.box--secondary { background-color: #fd79a8; }
+
+.box__button--blue  { background-color: #74b9ff; }
+.box__button--large { padding: 16px 32px }
+
+
+
+
+
+
+
+
+
+.container {
+    width: 1024px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
